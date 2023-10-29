@@ -8,9 +8,9 @@ public class DbConnection {
     public static Connection createDBConnection() {
         try {
             String url="jdbc:mysql://localhost:3306/";
-            String username="root";
-            String db="bb1";
-            String password="ZeibshaikhA@16";
+            String username="Your_Mysql_Username";
+            String db="Your_Database_Name";
+            String password="Your_Mysql_Passowrd";
             con = DriverManager.getConnection(url+db,username,password);
         }catch(Exception e){
             e.printStackTrace();
